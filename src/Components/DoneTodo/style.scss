@@ -1,0 +1,44 @@
+.doneTodo{
+  .toogleCollapse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c8ffce;
+    padding: 10px;
+    color: #1a1a1a;
+    border-radius: 5px;
+  }
+  h3{
+    color: rgb(59, 59, 59);
+    margin-bottom: 20px;
+  }
+  ul{
+    margin-top: 10px;
+    li{
+      background-color: #0ec45a;
+      margin: 0px 0px 10px 0px;
+      padding: 0px 0px 0px 20px;
+      border-radius: 5px;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button{
+        outline: none;
+        height: 60px;
+        padding: 10px;
+        border-radius: 0px 5px 5px 0;
+        background: #0ec45a;
+        border: 0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+      cursor: pointer;
+      }
+      span {
+        color: #fff;
+        text-decoration: line-through;
+      }
+    }
+  }
+}
